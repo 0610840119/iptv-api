@@ -3,8 +3,8 @@ name: Sync To Gitee
 #on: [ push, delete, create ]
 on:
   schedule:
-  #每天北京时间2点跑
-    - cron: '0 18 * * *'
+  #每天北京时间7点跑
+    - cron: '0 23 * * *'
 
 jobs:
   build:
