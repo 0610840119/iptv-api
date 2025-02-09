@@ -1,10 +1,10 @@
 name: Sync To Gitee
 
-#on: [ push, delete, create ]
-on:
-  schedule:
+on: [ push, delete, create ]
+#on:
+#  schedule:
   #每天北京时间24点跑
-    - cron: '0 16 * * *'
+#    - cron: '0 16 * * *'
 
 jobs:
   build:
