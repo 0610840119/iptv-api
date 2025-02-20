@@ -1,8 +1,7 @@
 🕘️更新时间,#genre#
-2025-02-20 00:39:51,http://z.b.bkpcp.top/m.php?id=cctv1
+2025-02-20 00:39:51,http://39.164.180.36:19901/tsfile/live/0001_2.m3u8?key=txiptv&playlive=0&authid=0
 
 📺央视频道,#genre#
-CCTV-1,http://z.b.bkpcp.top/m.php?id=cctv1
 CCTV-1,http://39.164.180.36:19901/tsfile/live/0001_2.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-1,https://cdn5.163189.xyz/live/cctv1/stream.m3u8
 CCTV-1,http://222.174.239.62:352/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
