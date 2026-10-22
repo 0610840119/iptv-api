@@ -133,8 +133,10 @@ jobs:
           retention-days: 1
 
       - name: Report non-persistent configuration changes
-        run: |
-          if ! diff -qr "$RUNNER_TEMP/iptv-config-before" config >/dev/null; then
+workflow_dispatch:
+  schedule:
+      - cron: '0 22,10 * * *'
+      if ! diff -qr "$RUNNER_TEMP/iptv-config-before" config >/dev/null; then
             echo "::warning::The update changed files under config/. These changes are not committed by the workflow."
             {
               echo "### Configuration notice"
